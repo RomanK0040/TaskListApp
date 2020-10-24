@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Task list app</string>
+    <string name="new_task">Add new task</string>
+    <string name="done_checkbox_label">Done!</string>
+    <string name="deadline_label">Due date:</string>
+
+    <string name="task_title_label">Title: </string>
+    <string name="task_title_field_hint">enter a task title</string>
+    <string name="task_detail_label">Details: </string>
+    <string name="task_save_action">Save</string>
+    <string name="task_delete_action">Delete</string>
+    <string name="task_deadline">Task Deadline</string>
+
+    <string name="active_tasks">Current tasks</string>
+    <string name="today_tasks">Tasks for today</string>
+    <string name="all_tasks">All tasks</string>
+
+    <string name="empty_list">there are no tasks according your request</string>
+
+    <string name="today_tasks_notification">Your tasks for today</string>
+    <plurals name="tasks_plural">
+        <item quantity="zero">There are no tasks to do</item>
+        <item quantity="one">only %d task to do</item>
+        <item quantity="other">%d tasks to do</item>
+    </plurals>
+</resources>

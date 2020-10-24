@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/active_task_filter"
+            android:title="@string/active_tasks" />
+
+        <item
+            android:id="@+id/today_task_filter"
+            android:title="@string/today_tasks" />
+
+        <item
+            android:id="@+id/all_task_filter"
+            android:title="@string/all_tasks" />
+    </group>
+
+</menu>

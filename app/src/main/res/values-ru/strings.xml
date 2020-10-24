@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Список задач</string>
+    <string name="new_task">Добавить новую задачу</string>
+    <string name="done_checkbox_label">Сделано!</string>
+    <string name="deadline_label">Выполнить:</string>
+
+    <string name="task_title_label">Заголовок: </string>
+    <string name="task_title_field_hint">Введите заголовок задачи</string>
+    <string name="task_detail_label">Детали: </string>
+    <string name="task_save_action">Сохранить</string>
+    <string name="task_delete_action">Удалить</string>
+    <string name="task_deadline">Срок выполнения</string>
+
+    <string name="active_tasks">Текущие задачи</string>
+    <string name="today_tasks">Задачи на сегодня</string>
+    <string name="all_tasks">Все задачи</string>
+
+    <string name="empty_list">в соответствии с вашим запросом нет ни одной задачи</string>
+
+    <string name="today_tasks_notification">Ваши дела на сегодня</string>
+    <plurals name="tasks_plural" tools:ignore="UnusedQuantity">
+        <item quantity="zero">Никаких задач нет</item>
+        <item quantity="one">только %d задача</item>
+        <item quantity="few">%d задачи</item>
+        <item quantity="many">%d задач</item>
+        <item quantity="other">%d задач</item>
+    </plurals>
+</resources>
